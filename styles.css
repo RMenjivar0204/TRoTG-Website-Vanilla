@@ -1,13 +1,32 @@
+
 body {
     background-color: black;
     color: white;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nav-header {
-    display: flex;
+    display: block;
+    text-align: center;
 }
 
 .nav-header a {
     padding: 10px;
     text-decoration: none;
 }
+
+
+
+/* Google Fonts
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans tc-<uniquifier> {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
